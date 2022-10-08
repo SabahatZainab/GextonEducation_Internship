@@ -1,0 +1,50 @@
+ 
+       #map {
+        height: 60%;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+      }
+      #result{
+        margin-top: 100px;
+      }
+  
+      
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+  
+      #floating-panel {
+        position: absolute;
+        top: 10px;
+        margin-top: 100px;
+        left: 25%;
+        z-index: 5;
+        background-color: #fff;
+        padding: 5px;
+        border: 1px solid #999;
+        text-align: center;
+        font-family: "Roboto", "sans-serif";
+        line-height: 30px;
+        padding-left: 10px;
+      }
+  
+      #floating-panel {
+        position: absolute;
+        top: 5px;
+        left: 50%;
+        margin-left: -180px;
+        width: 350px;
+        z-index: 5;
+        background-color: #fff;
+        padding: 5px;
+        border: 1px solid #999;
+      }
+  
+      #latlng {
+        width: 170px;
+      }

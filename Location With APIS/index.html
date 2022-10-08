@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Reverse Geocoding</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/index.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    
+  </head>
+  <body>
+  
+   <center> <h1>REVERSE GEOCODING</h1></center>
+    <div id="floating-panel">
+      <input id="latlng" type="text" value="25.3752,68.3506" />
+      <input id="submit" type="button" value="GET LOCATION" />
+    </div>
+
+    <div id="result"></div>
+
+    <div id="map"></div>
+  
+    <br /><br />
+
+   
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqj1YyWB8T4IWvTmRyT8zsTuJnN-0vDD0&callback=initMap&v=weekly&channel=2"
+      async
+    ></script>
+   
+
+  </body>
+  
+</html>
