@@ -1,0 +1,39 @@
+/*Label Text Main*/
+#Main_Text {
+	font-size:25px;
+}
+
+/* Right Side Text Big*/
+#main_text {
+	font-size:20px;
+	color:green;
+}
+
+/* Right Side Text Small*/
+#small_text {
+	font-size:14px;
+	color:grey;
+}
+
+/* Control Panel to the left */
+#section {
+	background-color: #f5f5f0;
+	padding:10px;
+}
+
+/* Uploaded Background Image Properties*/
+#background_image {
+	background-image:url('');
+    background-size: cover;
+    background-position: center;
+	height: 770px;
+	width: 100%;
+    border: 1px solid #bbb;
+}
+
+/* Initial Timer Properties */
+.timer {
+	color:white;
+	padding:15px;
+	background-color:purple;
+}
