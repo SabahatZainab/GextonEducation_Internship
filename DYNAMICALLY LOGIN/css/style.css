@@ -1,0 +1,11 @@
+h1{
+    padding: 40px;
+    margin: 100px;
+}
+.container-sm{
+    background-color: cadetblue;
+    width: fit-content;
+    text-decoration: bold;
+    
+}
+
